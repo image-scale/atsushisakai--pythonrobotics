@@ -2,5 +2,6 @@
 from .dijkstra import GridPlanner
 from .astar import AStarPlanner
 from .rrt import RandomTreePlanner
+from .potential_field import PotentialFieldPlanner
 
-__all__ = ['GridPlanner', 'AStarPlanner', 'RandomTreePlanner']
+__all__ = ['GridPlanner', 'AStarPlanner', 'RandomTreePlanner', 'PotentialFieldPlanner']

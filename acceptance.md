@@ -36,10 +36,21 @@
 ## Task 4: RRT path planner
 
 ### Acceptance Criteria
-- [ ] RRT finds path from start to goal by randomly sampling and connecting
-- [ ] Tree grows by extending from nearest node toward random samples
-- [ ] Checks collision with circular obstacles (x, y, radius)
-- [ ] Supports configurable expansion distance and path resolution
-- [ ] Goal sampling bias parameter speeds up convergence
-- [ ] Returns path as list of [x, y] waypoints, or None if no path found
-- [ ] Operates within configurable search bounds
+- [x] RRT finds path from start to goal by randomly sampling and connecting
+- [x] Tree grows by extending from nearest node toward random samples
+- [x] Checks collision with circular obstacles (x, y, radius)
+- [x] Supports configurable expansion distance and path resolution
+- [x] Goal sampling bias parameter speeds up convergence
+- [x] Returns path as list of [x, y] waypoints, or None if no path found
+- [x] Operates within configurable search bounds
+
+## Task 5: Potential Field path planning
+
+### Acceptance Criteria
+- [ ] Attractive potential pulls robot toward goal
+- [ ] Repulsive potential pushes robot away from obstacles
+- [ ] Combined potential gradient provides motion direction
+- [ ] Returns path as x and y coordinate lists
+- [ ] Can get stuck in local minima (expected behavior)
+- [ ] Supports configurable attraction and repulsion strengths
+- [ ] Path generation stops at goal or when oscillating
