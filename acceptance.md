@@ -14,10 +14,21 @@
 ## Task 2: Dijkstra grid-based path planner
 
 ### Acceptance Criteria
-- [ ] Planner finds shortest path from start to goal on a grid with obstacles
-- [ ] Returns the path as x and y coordinate lists
-- [ ] Correctly avoids obstacles (robot radius considered)
-- [ ] Supports 8-directional movement (including diagonals)
-- [ ] Handles different grid resolutions
-- [ ] Returns valid path for simple test case with obstacles
-- [ ] Path starts from start position and ends at goal position
+- [x] Planner finds shortest path from start to goal on a grid with obstacles
+- [x] Returns the path as x and y coordinate lists
+- [x] Correctly avoids obstacles (robot radius considered)
+- [x] Supports 8-directional movement (including diagonals)
+- [x] Handles different grid resolutions
+- [x] Returns valid path for simple test case with obstacles
+- [x] Path starts from start position and ends at goal position
+
+## Task 3: A* grid-based path planner
+
+### Acceptance Criteria
+- [ ] A* planner finds path from start to goal using heuristic
+- [ ] Uses Euclidean distance heuristic for optimal pathfinding
+- [ ] Returns path as x and y coordinate lists
+- [ ] A* should generally explore fewer nodes than Dijkstra for the same problem
+- [ ] Correctly avoids obstacles considering robot radius
+- [ ] Handles empty open set gracefully (no path found)
+- [ ] Path endpoints match start and goal positions
