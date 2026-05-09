@@ -8,8 +8,8 @@ Implement the robotics algorithms collection in order of dependency. Start with 
 - [x] Task 2: Implement Dijkstra grid-based path planner with obstacle avoidance + tests
 - [x] Task 3: Implement A* grid-based path planner with heuristic search + tests
 - [x] Task 4: Implement RRT (Rapidly-exploring Random Tree) path planner + tests
-- [>] Task 5: Implement Potential Field path planning algorithm + tests
-- [ ] Task 6: Implement PRM (Probabilistic Roadmap) path planner + tests
+- [x] Task 5: Implement Potential Field path planning algorithm + tests
+- [>] Task 6: Implement PRM (Probabilistic Roadmap) path planner + tests
 - [ ] Task 7: Implement Extended Kalman Filter for robot localization + tests
 - [ ] Task 8: Implement ICP (Iterative Closest Point) matching for SLAM + tests
 - [ ] Task 9: Implement Pure Pursuit path tracking controller + tests

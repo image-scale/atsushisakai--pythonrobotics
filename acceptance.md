@@ -47,10 +47,21 @@
 ## Task 5: Potential Field path planning
 
 ### Acceptance Criteria
-- [ ] Attractive potential pulls robot toward goal
-- [ ] Repulsive potential pushes robot away from obstacles
-- [ ] Combined potential gradient provides motion direction
-- [ ] Returns path as x and y coordinate lists
-- [ ] Can get stuck in local minima (expected behavior)
-- [ ] Supports configurable attraction and repulsion strengths
-- [ ] Path generation stops at goal or when oscillating
+- [x] Attractive potential pulls robot toward goal
+- [x] Repulsive potential pushes robot away from obstacles
+- [x] Combined potential gradient provides motion direction
+- [x] Returns path as x and y coordinate lists
+- [x] Can get stuck in local minima (expected behavior)
+- [x] Supports configurable attraction and repulsion strengths
+- [x] Path generation stops at goal or when oscillating
+
+## Task 6: PRM path planner
+
+### Acceptance Criteria
+- [ ] Samples random points in configuration space
+- [ ] Connects nearby samples that have collision-free paths
+- [ ] Builds a roadmap graph that can be queried
+- [ ] Finds path from start to goal using the roadmap
+- [ ] Uses Dijkstra/shortest path to search the graph
+- [ ] Checks collision with circular obstacles
+- [ ] Returns path as x and y coordinate lists or None if no path
