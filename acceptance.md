@@ -1,15 +1,15 @@
 # Acceptance Criteria
 
-## Task 1-7
+## Task 1-8
 (Completed - see previous commits)
 
-## Task 8: ICP matching
+## Task 9: Pure Pursuit path tracking
 
 ### Acceptance Criteria
-- [ ] Finds rotation and translation between two point sets
-- [ ] Iteratively refines alignment using nearest neighbor matching
-- [ ] Uses SVD for computing optimal transformation
-- [ ] Converges to solution within tolerance
-- [ ] Works with 2D point clouds
-- [ ] Returns rotation matrix and translation vector
-- [ ] Handles known correspondence case
+- [ ] Controller computes steering angle to follow a path
+- [ ] Uses look-ahead distance to find target point
+- [ ] Look-ahead distance varies with velocity
+- [ ] Vehicle state includes position, heading, and velocity
+- [ ] State update follows bicycle kinematic model
+- [ ] Controller tracks waypoints from a given path
+- [ ] Includes PID speed control
