@@ -1,15 +1,15 @@
 # Acceptance Criteria
 
-## Task 1-8
+## Task 1-9
 (Completed - see previous commits)
 
-## Task 9: Pure Pursuit path tracking
+## Task 10: K-means clustering
 
 ### Acceptance Criteria
-- [ ] Controller computes steering angle to follow a path
-- [ ] Uses look-ahead distance to find target point
-- [ ] Look-ahead distance varies with velocity
-- [ ] Vehicle state includes position, heading, and velocity
-- [ ] State update follows bicycle kinematic model
-- [ ] Controller tracks waypoints from a given path
-- [ ] Includes PID speed control
+- [ ] Clusters points into K groups
+- [ ] Iteratively updates cluster centroids
+- [ ] Assigns each point to nearest centroid
+- [ ] Converges when centroids stabilize
+- [ ] Returns cluster assignments and centroids
+- [ ] Works with 2D point data
+- [ ] Handles configurable number of clusters
