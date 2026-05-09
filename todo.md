@@ -4,7 +4,7 @@
 Implement the robotics algorithms collection in order of dependency. Start with core utilities (angle operations, plotting), then grid-based path planners (Dijkstra, A*), followed by sampling-based planners (RRT, PRM), potential field planning, localization (EKF), SLAM (ICP matching), path tracking (Pure Pursuit), and mapping (K-means clustering).
 
 ## Tasks
-- [ ] Task 1: Implement angle utilities (angle modulo operations, 2D rotation matrix) + tests
+- [>] Task 1: Implement angle utilities (angle modulo operations, 2D rotation matrix) + tests
 - [ ] Task 2: Implement Dijkstra grid-based path planner with obstacle avoidance + tests
 - [ ] Task 3: Implement A* grid-based path planner with heuristic search + tests
 - [ ] Task 4: Implement RRT (Rapidly-exploring Random Tree) path planner + tests
