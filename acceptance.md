@@ -25,10 +25,21 @@
 ## Task 3: A* grid-based path planner
 
 ### Acceptance Criteria
-- [ ] A* planner finds path from start to goal using heuristic
-- [ ] Uses Euclidean distance heuristic for optimal pathfinding
-- [ ] Returns path as x and y coordinate lists
-- [ ] A* should generally explore fewer nodes than Dijkstra for the same problem
-- [ ] Correctly avoids obstacles considering robot radius
-- [ ] Handles empty open set gracefully (no path found)
-- [ ] Path endpoints match start and goal positions
+- [x] A* planner finds path from start to goal using heuristic
+- [x] Uses Euclidean distance heuristic for optimal pathfinding
+- [x] Returns path as x and y coordinate lists
+- [x] A* should generally explore fewer nodes than Dijkstra for the same problem
+- [x] Correctly avoids obstacles considering robot radius
+- [x] Handles empty open set gracefully (no path found)
+- [x] Path endpoints match start and goal positions
+
+## Task 4: RRT path planner
+
+### Acceptance Criteria
+- [ ] RRT finds path from start to goal by randomly sampling and connecting
+- [ ] Tree grows by extending from nearest node toward random samples
+- [ ] Checks collision with circular obstacles (x, y, radius)
+- [ ] Supports configurable expansion distance and path resolution
+- [ ] Goal sampling bias parameter speeds up convergence
+- [ ] Returns path as list of [x, y] waypoints, or None if no path found
+- [ ] Operates within configurable search bounds

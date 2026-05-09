@@ -6,8 +6,8 @@ Implement the robotics algorithms collection in order of dependency. Start with 
 ## Tasks
 - [x] Task 1: Implement angle utilities (angle modulo operations, 2D rotation matrix) + tests
 - [x] Task 2: Implement Dijkstra grid-based path planner with obstacle avoidance + tests
-- [>] Task 3: Implement A* grid-based path planner with heuristic search + tests
-- [ ] Task 4: Implement RRT (Rapidly-exploring Random Tree) path planner + tests
+- [x] Task 3: Implement A* grid-based path planner with heuristic search + tests
+- [>] Task 4: Implement RRT (Rapidly-exploring Random Tree) path planner + tests
 - [ ] Task 5: Implement Potential Field path planning algorithm + tests
 - [ ] Task 6: Implement PRM (Probabilistic Roadmap) path planner + tests
 - [ ] Task 7: Implement Extended Kalman Filter for robot localization + tests
